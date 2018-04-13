@@ -1,3 +1,189 @@
-.module-content{width: 1200px;margin: 0 auto;}
-.module-header{height: 110px;background-color: #c90;}
-.module-body{min-height: 600px;background: #06c;}
+/* 属性重置 */
+
+body, div, p, ul, ol, dl, dt, dd, li, form, input, table, th, td, img, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  color: #000;
+  font-size: 12px;
+  font-style: normal;
+  font-family: "Microsoft Yahei";
+}
+
+p {
+  line-height: 1.6
+}
+
+h1, h2, h3 {
+  line-height: 2
+}
+
+em, b, i {
+  font-style: normal;
+}
+
+img {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #45b6f7;
+}
+
+li {
+  list-style: none;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.flt {
+  float: left;
+}
+
+.frt {
+  float: right;
+}
+
+/*清除浮动*/
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before, .clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/* web-blog */
+
+.module-header {
+  height: 110px;
+}
+
+.module-body {
+  min-height: 600px;
+  background: #6c0;
+}
+
+.module-footer {
+  height: 100px;
+  background-color: #96c;
+}
+
+.module-content {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header-inner {}
+
+.top-link {
+  float: right;
+}
+
+.headr-top-menu {
+  height: 50px;
+}
+
+.top-link li {
+  float: left;
+  font-size: 14px;
+  padding: 0 15px;
+  line-height: 50px;
+  color: #bbb;
+}
+
+.headr-top-menu a:hover {
+  text-decoration: none;
+
+}
+
+.header-logo-brond {
+  float: left;
+  margin-top: 2px;
+}
+
+.header-logo-brond .logo {
+  width: 137px;
+  height: 32px;
+  float: left;
+}
+
+.header-logo-brond .brond {
+  float: left;
+  width: 100px;
+  height: 30px;
+  color: #bbb;
+  margin-left: 10px;
+  padding-left: 10px;
+  margin-top: 2px;
+  border-left: 2px solid #eaeaea;
+}
+
+.brond p {
+  margin-top: -3px;
+}
+
+.web-navbar {
+  float: right;
+  padding-top: 10px;
+}
+
+.web-navbar li a:hover{
+  text-decoration: none;
+}
+
+.web-navbar>ul>li {
+  float: left;
+  padding: 0 15px;
+  font-size: 18px;
+  position: relative;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  padding: 8px 0;
+  top: 25px;
+  left: -10px;
+  min-width: 150px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sub-menu li a{
+  display: block;
+
+  font-size: 14px;
+  line-height: 32px;
+  padding: 0 50px 0 20px;
+}
+.sub-menu li a:hover{
+  background-color: #f6f6f6;
+  text-decoration: none;
+
+}
+
+.web-navbar>ul>li:hover .sub-menu{
+  display: block;
+}
