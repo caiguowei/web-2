@@ -258,6 +258,14 @@ table {
   font-size: 18px;
 }
 
+.bannar-right .ad-link:hover{
+  color: #45b6f7;
+}
+
+.column-title .more{
+  font-size: 14px;
+}
+
 .list-box{
   height: 192px;
   padding: 20px;
@@ -273,8 +281,8 @@ table {
 
 }
 
-.article-info .title{
-
+.article-info .title  .tit-link:hover{
+  color: #45b6f7;
 }
 
 .article-info .title a:hover{
