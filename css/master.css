@@ -262,14 +262,20 @@ table {
 .bannar-right .txt-red{
   font-size: 18px;
   color: #ff5f52;
+  float: left;
+  margin-top: 10px;
 }
 
 .bannar-right a{
   color: #555;
+
 }
 
-.ad-link{
+.bannar-right .ad-link{
   font-size: 18px;
+  display: inline-block;
+  margin: 10px auto auto 5px;
+
 }
 
 .bannar-right .ad-link:hover{
@@ -278,6 +284,11 @@ table {
 
 .info-ad{
   color: #666;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.5;
+  padding-top: 5px;
+  text-indent: 30px;
 }
 
 .column-title .more{
