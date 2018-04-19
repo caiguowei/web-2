@@ -37,6 +37,7 @@ a {
 a:hover {
   text-decoration: none;
   color: #45b6f7;
+  transition-duration: 0.25s, 0.25s;
 }
 
 li {
@@ -110,10 +111,11 @@ table {
 
 .top-link {
   float: right;
+  color: #999;
 }
 
-.headr-top-menu {
-  height: 50px;
+.top-link a{
+  color: #999;
 }
 
 .top-link li {
@@ -121,12 +123,11 @@ table {
   font-size: 14px;
   padding: 0 15px;
   line-height: 50px;
-  color: #bbb;
 }
 
 .headr-top-menu a:hover {
   text-decoration: none;
-
+  color: #45b6f7;
 }
 
 .header-logo-brond {
@@ -169,6 +170,7 @@ table {
   padding: 0 15px;
   font-size: 18px;
   position: relative;
+  z-index: 2;
 }
 
 .sub-menu {
@@ -199,6 +201,7 @@ table {
 
 .web-navbar>ul>li:hover .sub-menu{
   display: block;
+  z-index: 2;
 }
 
 
@@ -246,10 +249,7 @@ table {
   font-weight: normal;
 }
 
-.bannar-list{
-  min-height: 600px;
-  background: rgb(0, 255, 242);
-}
+
 
 .moudle-sidbar{
   float: right;
@@ -266,16 +266,16 @@ table {
   margin-top: 10px;
 }
 
-.bannar-right a{
-  color: #555;
-
+.txt-red:hover{
+  color: #45b6f7;
+  transition-duration: 0.25s, 0.25s;
 }
 
 .bannar-right .ad-link{
   font-size: 18px;
   display: inline-block;
   margin: 10px auto auto 5px;
-
+  color: #555;
 }
 
 .bannar-right .ad-link:hover{
@@ -291,16 +291,30 @@ table {
   text-indent: 30px;
 }
 
-.column-title .more{
+.column-title{
+  color: #555;
+}
+
+.more{
   font-size: 14px;
+  color: #999;
+}
+
+.bannar-list{
+  min-height: 600px;
+  background: rgb(0, 255, 242);
 }
 
 .list-box{
-  height: 192px;
+  min-height: 150px;
   padding: 20px;
   background: #fff;
   border: 1px solid #eaeaea;
   border-radius: 4px;
+}
+
+.list-box:hover{
+  background-color: #f9f9f9;
 }
 
 .article-img{
@@ -320,15 +334,80 @@ table {
 }
 
 .article-info .title .cat{
+
   font-size: 12px;
-  display: inline-block;
-  padding: 3px 5px;
+  padding: 4px 5px;
   color: #fff;
   background: #45bcf9;
+  font-weight: normal;
+  float: left;
+}
+
+.cat:hover{
+  opacity: 0.85;
+}
+
+.icon-c{
+  float: left;
+  margin-top: 8px;
+  border-top: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid #45bcf9;
 }
 
 .article-info .title .tit-link{
   color: #555;
   margin-left: 5px;
   font-size: 18px;
+
+}
+
+.meta{
+  margin: 10px 0;
+}
+
+.meta i{
+  position: relative;
+  padding: 0 15px;
+  color: #999;
+}
+
+.meta i::before{
+  display: inline-block;
+  top: 2px;
+  left: 0;
+  width: 12px;
+  height: 12px;
+  content:'' ;
+  position: absolute;
+}
+
+
+
+.meta .icon-time::before{
+  background: url(../images/Time.png) no-repeat;
+  background-size: 12px 12px;
+}
+
+
+
+.meta .icon-user::before{
+  background: url(../images/user.png) no-repeat;
+  background-size: 12px 12px;
+}
+
+.desc{
+  text-indent: 20px;
+  color: #999;
+  line-height: 1.8;
+
+}
+
+.tianqi-red{
+  color: #ff5f52;
+}
+
+.tianqi-red:hover{
+  color: #45bcf9;
 }
