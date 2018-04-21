@@ -97,3 +97,10 @@ function int() {
     $(".banner-box .li li").eq(i).addClass('index').siblings().removeClass('index'); //给相应的按钮添加样式
   }
 }
+
+$(document).ready(function(){
+  $('.search-case').click(function(e){
+    $('.site-search').toggleclass('search-show')
+    $(this).toggleclass('icon-search').toggleclass('icon-close');
+  });
+});

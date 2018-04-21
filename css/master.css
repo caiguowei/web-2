@@ -81,6 +81,78 @@ table {
 
 .module-header {
   height: 110px;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.header-inner {
+  position: relative;
+}
+
+.site-search{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 100px;background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
+.site-search.search-show{
+  top: 110px;
+  z-index: 2;
+  transition:
+}
+
+.site-search .search-box{
+  padding: 25px 20%;
+  display: inline-block;
+  text-align: center;
+}
+
+.site-search-form .site-search-input{
+  float: left;
+  width: 612px;
+  height: 50px;
+  padding: 4px 12px;
+  color: #999;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  border-radius: 2px 0 0 2px;
+  outline: none;
+  border-color: #45b6f7;
+  font-size: 16px;
+}
+
+.site-search-form .search-btn{
+  width: 108px;
+  height: 50px;
+  background-color: #45b6f7;
+  border-radius: 0 2px 2px 0;
+  outline: none;
+  cursor: pointer;
+  float: left;
+}
+
+.icon-search-site{
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url(../images/icon-search.png) no-repeat;
+}
+
+.icon-search{
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-size: 18px 18px;
+  background: url(../images/search.png)no-repeat;
+}
+
+.icon-close{
+  background-size: 18px 18px;
+  background: url(../images/close.png)no-repeat;
 }
 
 .module-body {
@@ -98,10 +170,6 @@ table {
   width: 1200px;
   margin: 0 auto;
 }
-
-
-
-.header-inner {}
 
 .top-link {
   float: right;
@@ -193,6 +261,14 @@ table {
   height: 18px;
   background: url(../images/search.png) no-repeat;
   background-size: 18px 18px;
+}
+
+.icon-search:hover{
+  background: url(../images/search-hover.png)no-repeat;
+  background-size: 18px 18px;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
 }
 
 .sub-menu li a{
