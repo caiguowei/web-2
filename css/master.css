@@ -324,14 +324,6 @@ table {
   border: 1px solid #eaeaea;
 }
 
-.moudle-sidbar{
-  float: right;
-  min-height: 900px;
-  background: rgb(255,139,139);
-  width: 360px;
-
-}
-
 .bannar-right .txt-red{
   font-size: 18px;
   color: #ff5f52;
@@ -494,4 +486,41 @@ table {
 
 .tianqi-red:hover{
   color: #45bcf9;
+}
+
+/* moudle-sidbar start */
+
+.moudle-sidbar{
+  float: right;
+  min-height: 900px;
+  background: rgb(255,139,139);
+  width: 360px;
+
+}
+
+.affiche{
+  height: 200px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.web-affiche{
+  height: 36px;
+  background-color: #fbfbfb;
+  border-bottom: 1px solid #eaeaea;
+
+}
+
+.main-affiche{
+  background-color: #fff;
+  font-weight: bold;
+  border-right: 1px solid #eaeaea;
+  text-align: center;
+  width: 25%;
+  line-height: 36px;
+  font-size: 14px;
+  height: 37px;
 }
