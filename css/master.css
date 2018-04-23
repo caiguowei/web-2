@@ -505,6 +505,7 @@ table {
   border: 1px solid #eaeaea;
   border-radius: 4px;
   overflow: hidden;
+  position: relative;
 }
 
 .web-affiche{
@@ -523,4 +524,34 @@ table {
   line-height: 36px;
   font-size: 14px;
   height: 37px;
+}
+
+.affiche-content-box{
+  width: 358px;
+  height: 175px;
+  padding: 15px;
+  position: absolute;
+  box-sizing: border-box;
+
+}
+
+.affiche-content-box>ul>li{
+    box-sizing: border-box;
+    float: left;
+    width: 328px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 17px;
+
+}
+
+.affiche-content-box>li,a{
+  font-weight: bold;
+  color: #666;
+}
+
+.affiche-content-box time{
+  float: right;
 }
