@@ -555,3 +555,17 @@ table {
 .affiche-content-box time{
   float: right;
 }
+
+.adr{
+
+
+}
+
+.adr .adr-ad{
+  width: 360px;
+  height: 150px;
+  margin-bottom: 15px;
+  background-color: yellow;
+  display: block;
+  background: url(../images/adr.jpg) no-repeat;
+}
