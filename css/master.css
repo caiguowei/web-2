@@ -656,5 +656,63 @@ table {
 
 .sidbar-branch04{
   width: 360px;
+  height: 684px;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
   background-color: #fff;
+}
+
+.latest-word{
+  font-size: 18px;
+  color: #666;
+  background-color: #fbfbfb;
+  border-bottom: 1px solid #eaeaea;
+  padding: 11px 15px 10px;
+}
+
+.sidbar-branch04 li{
+  width: 358px;
+  height: 107px;
+  border-bottom: 1px solid #eaeaea;
+  box-sizing: border-box;
+  overflow:hidden;
+  display: block;
+}
+
+.sidbar-branch04 a{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: normal;
+  color: #888;
+  position: relative;
+  overflow: hidden;
+}
+
+.sidbar-branch04 img{
+  width: 122px;
+  height: 86px;
+  float: left;
+  margin: 10px 15px;
+}
+
+.sidbar-branch04 .text{
+  float: left;
+  width: 193px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.sidbar-branch04 .date{
+  float: left;
+  color: #bbb;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.sidbar-branch04 a:hover{
+  color: #45b6f7;
+}
+
+.sidbar-branch04 li:hover{
+    background-color: #fbfbfb;
 }
